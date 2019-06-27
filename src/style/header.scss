@@ -1,0 +1,5 @@
+.header-wrapper {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: [header-title-s] 1fr [header-title-e about-me-s] 1fr [about-me-e contact-s] 1fr [contact-e weddings-s] 1fr [weddings-e business-s] 1fr [business-e];
+}
