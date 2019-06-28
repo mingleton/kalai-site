@@ -3,12 +3,14 @@ import ReactPlayer from 'react-player';
 
 export default function() {
     return (
-        <div>
-            Homepage
+        <div className= "homepage-wrapper">
+            <div className="home-title">
+                Forward Ever. Stopping Never.
+            </div>
             <div className= "video">
             <ReactPlayer
                 className= "video-home"
-                url={'https://www.youtube.com/watch?v=VWoIpDVkOH0'}
+                url={'https://www.youtube.com/watch?v=bG8YfHXmQXw'}
                 config={{
                     youtube: {
                     playerVars: { showinfo: 1 }
@@ -19,6 +21,7 @@ export default function() {
                 }}
             />
             </div>
+
         </div>
     )
 }

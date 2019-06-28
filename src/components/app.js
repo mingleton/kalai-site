@@ -11,6 +11,7 @@ import Contact from './pages/contact';
 import About from './pages/about';
 import Weddings from './pages/weddings';
 import Business from './pages/business';
+import Footer from './footer';
 
 
 export default class App extends Component {
@@ -21,7 +22,7 @@ export default class App extends Component {
         <Router>
           <div>
             <Header />
-            
+
             <Switch>    
 
               <Route exact path = "/" component={Home} />
@@ -37,6 +38,9 @@ export default class App extends Component {
             </Switch>
           </div>
         </Router>
+     
+        <Footer />
+
       </div>
     );
   }

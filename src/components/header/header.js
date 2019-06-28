@@ -17,11 +17,6 @@ class Header extends Component {
                         About Me
                     </NavLink>
                 </div>
-                <div className = "nav-link-wrapper">
-                    <NavLink to= "/contact" activeClassName="nav-link-active">
-                        Contact
-                    </NavLink>
-                </div>
 
                 <div className = "nav-link-wrapper">
                     <NavLink to="/weddings" activeClassName="nav-link-active">
@@ -31,6 +26,11 @@ class Header extends Component {
                 <div className = "nav-link-wrapper">
                     <NavLink to= "/business" activeClassName="nav-link-active">
                         Business
+                    </NavLink>
+                </div>
+                <div className = "nav-link-wrapper">
+                    <NavLink to= "/contact" activeClassName="nav-link-active">
+                        Contact
                     </NavLink>
                 </div>
 

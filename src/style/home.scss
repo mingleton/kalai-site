@@ -1,5 +1,24 @@
+.homepage-wrapper {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    // grid-template-rows: [home-title-s]20px [home-title-e] 20px [video-s];
+    grid-gap: 50px;
+
 .video {
     display: grid;
     justify-content: center;
     align-content: center;
 }
+
+
+
+.home-title {
+    font-size: 2.5rem;
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+}
+

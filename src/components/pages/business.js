@@ -4,7 +4,7 @@ class Business extends Component {
     render() {
         return (
             <div className= "business-wrapper">
-                <div>Business</div>
+                <div className="business-title">Business</div>
             </div>
         )
     }
