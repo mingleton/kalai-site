@@ -1,4 +1,21 @@
 .weddings-wrapper {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 50px;
+
+    // .wedding-videos-wrapper {
+
+    // }
+
+    .wedding-vid-one {
+        padding-bottom: 50px;
+    }
+
+    .wedding-vid-two {
+        padding-bottom: 50px;
+    }
+
     .weddings-title {
     font-size: 2rem;
     display: grid;

@@ -11,28 +11,29 @@ class Header extends Component {
                         <h1>"Kalai Films"</h1>
                     </NavLink>
                 </div>
+                {/* <div className= "links-wrapper"> */}
+                    <div className = "nav-link-wrapper">
+                        <NavLink to="/about" activeClassName="nav-link-active">
+                            About Me
+                        </NavLink>
+                    </div>
 
-                <div className = "nav-link-wrapper">
-                    <NavLink to="/about" activeClassName="nav-link-active">
-                        About Me
-                    </NavLink>
-                </div>
-
-                <div className = "nav-link-wrapper">
-                    <NavLink to="/weddings" activeClassName="nav-link-active">
-                        Weddings
-                    </NavLink>
-                </div>
-                <div className = "nav-link-wrapper">
-                    <NavLink to= "/business" activeClassName="nav-link-active">
-                        Business
-                    </NavLink>
-                </div>
-                <div className = "nav-link-wrapper">
-                    <NavLink to= "/contact" activeClassName="nav-link-active">
-                        Contact
-                    </NavLink>
-                </div>
+                    <div className = "nav-link-wrapper">
+                        <NavLink to="/weddings" activeClassName="nav-link-active">
+                            Weddings
+                        </NavLink>
+                    </div>
+                    <div className = "nav-link-wrapper">
+                        <NavLink to= "/business" activeClassName="nav-link-active">
+                            Business
+                        </NavLink>
+                    </div>
+                    <div className = "nav-link-wrapper">
+                        <NavLink to= "/contact" activeClassName="nav-link-active">
+                            Contact
+                        </NavLink>
+                    </div>
+                {/* </div> */}
 
             </div>
         )

@@ -1,36 +1,32 @@
 .header-wrapper {
     height: 65px;
     background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    // display: grid;
+    // grid-template-rows: [homepage-link-s] 1fr [homepage-link-e links-wrapper-s] 1fr [links-wrapper-e];
+    // justify-content: center;
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 30px;
 
-    // .right-side {
-    //   a {
-    //     margin-left: 15px;
-    //     cursor: pointer;
-    //     color: $teal;
-    //     transition: 0.5 ease-in-out;
+    padding: 20px;
 
-    //     &:hover {
-    //       color: $dark-teal;
-    //     }
-    //   }
-    // }
-
-//   .left-side {
-//     display: flex;
-//   }
   .homepage-link {
+    //   display: grid;
+    //   justify-content: center;
+    font-size: 1.5rem;
       a {
       color: black;
       text-decoration: none;
       &:hover {
           color: green;
       }
-      }
+    }
   }
+
+//   .links-wrapper {
+//       display: grid;
+//       grid-template-columns: 1fr 1fr 1fr 1fr;
+//   }
 
   .nav-link-wrapper {
      height: 22px;
