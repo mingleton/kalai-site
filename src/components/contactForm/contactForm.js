@@ -4,7 +4,7 @@ import DropzoneComponent from "react-dropzone-component";
 
 
 
-export default class contactForm extends Component {
+export default class ContactForm extends Component {
     constructor(props) {
         super(props);
 

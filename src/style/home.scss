@@ -5,10 +5,12 @@
     // grid-template-rows: [home-title-s]20px [home-title-e] 20px [video-s];
     grid-gap: 50px;
 
-.video {
+.video-wrapper{
     display: grid;
     justify-content: center;
     align-content: center;
+    
+   
 }
 
 

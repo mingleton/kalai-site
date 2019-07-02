@@ -2,13 +2,19 @@ html {
     font-size: 62.5%; // 1rem is 10px
 }
 
+body {
+    margin: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
 *,
 *::after,
 *::before {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    font-family: 'montserrat';
+    // font-family: 'montserrat';
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 body {
@@ -19,6 +25,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: transparent;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .app {
