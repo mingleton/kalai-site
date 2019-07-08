@@ -1,9 +1,70 @@
 .contact-wrapper {
-    
+    display: grid;
+    // justify-content: center;
+
     .contact-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     display: grid;
     justify-content: center;
     padding-top: 50px;
+    }
+
+    .contact-info-price {
+        padding: 20px;
+        font-size: 2rem;
+        display: grid;
+        justify-content: center;
+    }
+
+    .contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    
+    .left-column {
+        display: flex;
+        justify-content: center;
+        .about-page-image {
+            width: 500px;
+            height: 500px;
+        }
+    }
+    .right-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        // padding: 100px;
+    .contact-bullet-points {
+        display: grid;
+
+        // grid-template-columns: 1fr;
+        grid-gap: 15px;
+
+        .bullet-point-group {
+            display: flex;
+            align-items: center;
+
+            .icon {
+                font-size: 2em;
+            }
+
+            .text {
+                font-size: 2em;
+                font-weight: 900;
+                margin-left: 21px;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    &:hover {
+                    color: #C0C0C0;
+                    transition: ease-in;
+                    }
+                }
+            }
+        }
+      }
+    }
     }
 }

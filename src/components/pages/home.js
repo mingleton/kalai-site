@@ -18,7 +18,7 @@ class ResponsivePlayer extends Component {
                 height = '500px'
                 volume= '0'
                 muted = 'true'
-                // playing
+                playing
             />
             </div>
 
