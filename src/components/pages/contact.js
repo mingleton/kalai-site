@@ -1,6 +1,6 @@
 import React from 'react';
 
-import contactPicture from "/Users/michaelingleton/Documents/Documents/videographer-site/static/assets/images/contactpic.jpg"
+import contactPicture from "/Users/michaelingleton/Documents/Documents/videographer-site/static/assets/contactpic.jpg"
 
 
 
