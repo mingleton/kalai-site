@@ -10,17 +10,20 @@ export default function() {
             <div className= "contact-wrapper">
            
                 <div className="contact-title">Contact</div>
-                <div className= "contact-info-price">
-                    Please contact me for rates and booking details:
-                </div>
+                
 
             <div className="contact-content">
                 <div className = "left-column">
                     <img src={contactPicture} className='about-page-image' alt='Profile Pic'></img>
                 </div>
+                
 
                 <div className="right-column">
+               
                     <div className= "contact-bullet-points">
+                    <div className= "contact-info-price">
+                    Please contact me for rates and booking details:
+                    </div>
                         <div className= "bullet-point-group">
                             <div className= "icon">
                                 Phone Number:
