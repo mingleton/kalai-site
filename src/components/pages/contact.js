@@ -1,6 +1,6 @@
 import React from 'react';
 
-import contactPicture from "/Users/michaelingleton/Documents/Documents/videographer-site/static/assets/contactpic.jpg"
+// import contactPicture from "/Users/michaelingleton/Documents/Documents/videographer-site/static/assets/contactpic.jpg"
 
 
 
@@ -14,7 +14,7 @@ export default function() {
 
             <div className="contact-content">
                 <div className = "left-column">
-                    <img src={contactPicture} className='about-page-image' alt='Profile Pic'></img>
+                    {/* <img src={contactPicture} className='about-page-image' alt='Profile Pic'></img> */}
                 </div>
                 
 
