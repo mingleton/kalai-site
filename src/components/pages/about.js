@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePicture from '/Users/michaelingleton/Documents/Documents/videographer-site/static/assets/images/kalai.jpg';
+import profilePicture from "../../../static/assets/images/picture.jpg";
 
 export default function() {
   
