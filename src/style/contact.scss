@@ -30,6 +30,9 @@
         justify-content: center;
         align-items: center;
         // padding: 100px;
+        @media screen and (min-width: 700px) {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
     .contact-bullet-points {
         display: grid;
 

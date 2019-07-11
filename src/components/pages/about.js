@@ -1,12 +1,12 @@
 import React from 'react';
-// import profilePicture from '/Users/michaelingleton/Documents/Documents/videographer-site/static/assets/images/kalai.jpg';
+import profilePicture from '/Users/michaelingleton/Documents/Documents/videographer-site/static/assets/images/kalai.jpg';
 
 export default function() {
   
      return (
         <div className= "about-page-wrapper">
             <div className = "left-column">
-                {/* <img src={profilePicture} className='about-page-image' alt='Profile Pic'></img> */}
+                <img src={profilePicture} className='about-page-image' alt='Profile Pic'></img>
             </div>
             
             <div className= "right-column">
