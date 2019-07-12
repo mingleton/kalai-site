@@ -13,7 +13,7 @@ export default function() {
                 
 
             <div className="contact-content">
-                <div className = "left-column">
+                <div className = "left-column-contact">
                     <img src={contactPicture} className='about-page-image' alt='Profile Pic'></img>
                 </div>
                 

@@ -14,8 +14,8 @@ class ResponsivePlayer extends Component {
             <ReactPlayer
                 className= "video-home"
                 url= 'https://www.youtube.com/watch?v=bG8YfHXmQXw'
-                width = '1000px'
-                height = '500px'
+                width= '100%'
+                height = '100%'
                 volume= '0'
                 muted = 'true'
                 playing
